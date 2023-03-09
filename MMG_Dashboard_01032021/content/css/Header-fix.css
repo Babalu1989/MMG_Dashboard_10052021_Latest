@@ -1,0 +1,172 @@
+﻿.wrapper {
+    width: 100%;
+    position: relative;
+    border: 1px solid #c3c3c3;
+    background: #efefef;
+    overflow: hidden;
+}
+
+.gridbox {
+    float: left;
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+        
+.box-area {
+    overflow-y: scroll;
+    height: 220px;
+    border-top: 0px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+}
+
+td + td {
+    border-left: 1px solid #fff;
+}
+
+td, th {
+    border-bottom: 1px solid #fff;         
+    padding: 0px 5px;
+    word-break: break-all;
+}
+
+thead tr th,
+tfoot tr td {
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
+}
+
+thead tr th div,
+tfoot tr td div {
+position: absolute;
+padding: 10px 10px 10px 4px;
+margin-left: -6px;
+line-height: normal;
+width: 100%;
+z-index: 2;
+text-align: left;
+font-weight: bold;
+}
+
+thead tr th div {
+border-left: 1px solid #c3c3c3;
+border-bottom: 1px solid #c3c3c3;
+}
+
+tfoot tr td div {
+border-left: 1px solid #8e8e8e;
+border-top: 1px solid #8e8e8e;
+}
+
+tfoot tr td div.c1,
+thead tr th div.c1 {
+    background: none;
+}
+
+tfoot tr td div.c2,
+thead tr th div.c2 {
+    background: #E2E2E2;
+    color: #000;
+    border-top: 1px solid #ccc;
+}
+
+tfoot tr td div.c3,
+thead tr th div.c3 {
+    background: #d7cbe6;
+}
+
+tfoot tr td div.c4,
+thead tr th div.c4 {
+    background: #bfd4bf;
+}
+
+tfoot tr td div.c5,
+thead tr th div.c5 {
+    background: #e6cdcc;
+}
+
+tfoot tr td div.c6,
+thead tr th div.c6 {
+    background: #9c9c3a;
+}
+
+tfoot tr td div.c7,
+thead tr th div.c7 {
+    background: violet;
+}
+
+tfoot tr td div.c8,
+thead tr th div.c8 {
+    background: green;
+}
+
+tfoot tr td div.c9,
+thead tr th div.c9 {
+    background: #9c9c3a;
+}
+
+tfoot tr td div.c10,
+thead tr th div.c10 {
+    background: #9c9c3a;
+}
+
+thead tr th div {
+top: 0;
+/*margin-top: 36px;*/
+font-size: 12px;
+}
+
+tfoot tr td div {
+bottom: 0;
+}
+
+thead tr th:first-child div,
+tfoot tr td:first-child div {
+border-left: none;
+}
+.Labelheader {
+font-family: Calibri;
+text-align: center;
+color: #fff;
+}
+.bg-lightblue {
+    background-color: #cfe9f3;
+}
+
+.bg-lightpink {
+    background-color: #f9e1e0;
+}
+
+.bg-darkperple {
+    background-color: #bd92bd;
+}
+
+.bg-lightperple {
+    background-color: #e5ddef;
+}
+
+.bg-lightgreen {
+    background-color: #d9ecd9;
+}
+
+@media (max-width: 720px) {
+    .gridbox {
+        float: left;
+        width: auto;
+    }
+}

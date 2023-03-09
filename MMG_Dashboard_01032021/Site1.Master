@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MMG_Dashboard_01032021.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/myStyle.css" rel="stylesheet" />
+    <link href="content/css/aside-menu.css" rel="stylesheet" />
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/css/Submenu-Dropdown.css" rel="stylesheet" />
+    <link href="content/css/style.css" rel="stylesheet" />
+    <link href="content/css/TableHeaderRightFix.css" rel="stylesheet" />
+    <link href="content/css/responsive-tables.css" rel="stylesheet" />
+    <link href="content/css/Header-fix.css" rel="stylesheet" />
+    <link href="content/css/aside-menu.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <div id="logo">
+                <div class="row" style="background-color: dimgray;">
+                    <div class="col-md-2 form-group">
+                        <h3>
+                            <img src="images/Logo.png" style="width: 200px;" />
+                        </h3>
+                    </div>
+                    <div class="col-md-9 form-group" style="text-align: center;">
+                        <h2 style="color: white;">
+                            <i><b>MMG Invoice Management System</b></i></h2>
+                    </div>
+                    <div class="col-md-1 form-group">
+                        <h2>
+                            <asp:LinkButton ID="lnkbutton" runat="server" Text="Logout" ForeColor="Red" Font-Bold="true" Font-Size="Medium" OnClick="lnkbutton_Click"></asp:LinkButton>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #D3D3D3;">
+            <asp:Menu ID="MenuUser" runat="server" Orientation="Horizontal" Style="text-align: left; font-family: Rockwell; font-size: large; font-weight: 700;"
+                BackColor="Bisque"
+                DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.7em" ForeColor="#990000"
+                StaticSubMenuIndent="10px" Width="100%">
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="Bisque" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <Items>
+                    <asp:MenuItem Text="Home" Value="Incidenet" NavigateUrl="~/frmHome.aspx"></asp:MenuItem>
+                </Items>
+                <Items>
+                    <asp:MenuItem Text="Master Form" Value="Incidenet1" NavigateUrl="#">
+                        <asp:MenuItem Text="Item Master" Value="Item" NavigateUrl="~/frmItemMaster.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+                <Items>
+                    <asp:MenuItem Text="Transaction Form" Value="Incidenet1" NavigateUrl="#">
+                        <asp:MenuItem Text="Tab Punch" Value="Tab" NavigateUrl="~/TabPunch.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Manual Punch" Value="Manual" NavigateUrl="~/ManualPunch.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Generate Invoice" Value="Invoice" NavigateUrl="~/frmGenerateinvoice.aspx"></asp:MenuItem>
+                      <asp:MenuItem Text="Material Reconciliation" Value="Annexure2" NavigateUrl="~/frmAnnexure2.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="MMG Work Summary" Value="Annexure1" NavigateUrl="~/frmAnnexure1.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Scrap Format" Value="Scrap" NavigateUrl="~/frmScrapformat.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Annexure4(Penalty)" Value="Penalty" NavigateUrl="~/frmAnnexure4(Penalty).aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+                <Items>
+                    <asp:MenuItem Text="MIS Form" Value="Incidenet1" NavigateUrl="#">
+                        <asp:MenuItem Text="Tab/Manual MIS" Value="Item" NavigateUrl="~/TabManualMIS.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="#FFCC66" />
+                <DynamicMenuStyle Height="" />
+            </asp:Menu>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer" style="text-align: center;">
+          <h6 style="text-align:center; padding-bottom:20px; font-style:italic;">
+           <b>© 2021 BRPL IT TEAM All RIGHT RESERVED.</b></h6>
+        </div>
+    </form>
+</body>
+</html>

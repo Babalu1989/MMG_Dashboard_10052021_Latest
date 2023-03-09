@@ -1,0 +1,593 @@
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 10:21:40
+Error Message: ORA-01400: cannot insert NULL into ("MOBINT"."MMG_SCRAP_VERIFICATION_FOOTER"."JOB_DESCRIPTION")
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 13:00:06
+Error Message: ORA-01400: cannot insert NULL into ("MOBINT"."MMG_SCRAP_VERIFICATION_FOOTER"."JOB_DESCRIPTION")
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 13:01:39
+Error Message: ORA-01400: cannot insert NULL into ("MOBINT"."MMG_SCRAP_VERIFICATION_FOOTER"."JOB_DESCRIPTION")
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 13:02:49
+Error Message: ORA-01400: cannot insert NULL into ("MOBINT"."MMG_SCRAP_VERIFICATION_FOOTER"."JOB_DESCRIPTION")
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 13:04:48
+Error Message: One or more errors occurred during processing of command.
+ORA-00936: missing expression
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SimpleTest.SimpleUtil.ExecuteReader(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 69
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 13:05:16
+Error Message: One or more errors occurred during processing of command.
+ORA-00936: missing expression
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SimpleTest.SimpleUtil.ExecuteReader(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 69
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 13:10:25
+Error Message: Unspecified error
+ORA-01789: query block has incorrect number of result columns
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SimpleTest.SimpleUtil.ExecuteReader(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 69
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:43
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:44
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:44
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:45
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:45
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:45
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:46
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:46
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:47
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:47
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:47
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:48
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:48
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:48
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:49
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:49
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:49
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:50
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:50
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:51
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:51
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:51
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:52
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:52
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:53
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:53
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:53
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:54
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:54
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:54
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:55
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:55
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:56
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:56
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:56
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:57
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:57
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/04/2021 16:00:57
+Error Message: One or more errors occurred during processing of command.
+ORA-00904: "ITEMCODE": invalid identifier
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________

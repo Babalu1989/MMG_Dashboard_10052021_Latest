@@ -1,0 +1,24 @@
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/03/2021 18:18:02
+Error Message: ORA-01400: cannot insert NULL into ("MOBINT"."MMG_ITEM_MASTER"."ITEMCODE")
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 22/03/2021 18:19:04
+Error Message: ORA-01400: cannot insert NULL into ("MOBINT"."MMG_ITEM_MASTER"."ITEMCODE")
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________

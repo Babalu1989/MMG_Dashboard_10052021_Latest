@@ -1,0 +1,64 @@
+﻿.PagerStyle table {
+    width: auto !important;
+}
+
+.PagerStyle, .PagerStyle td {
+    text-align: left;
+    color: #DF7401;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background: #F2F2F2;
+    font-size: 12px;
+}
+
+    .PagerStyle a {
+        clear: both;
+        font-family: "Bitstream Vera Sans",Verdana,Helvetica;
+        font-size: 12px;
+        padding: 2px 5px;
+        border: 1px solid #ddd;
+        color: #333333;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 0px 0.25em 0px 0.25em;
+        background: #dfedf7;
+        border: 1px solid #90c2e1;
+        -moz-border-radius: 2px;
+    }
+
+    .PagerStyle td span {
+        clear: both;
+        font-family: "Bitstream Vera Sans",Verdana,Helvetica;
+        font-size: 12px;
+        padding: 2px 5px;
+        border: 1px solid #ddd;
+        color: #333333;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 0px 0.25em 0px 0.25em;
+        background: #bcecb4;
+        border: 1px solid #90c2e1;
+        -moz-border-radius: 2px;
+    }
+
+    .PagerStyle a:hover {
+        background-color: #eef7fc;
+    }
+
+
+a.aspNetDisabled {
+    clear: both;
+    font-family: "Bitstream Vera Sans",Verdana,Helvetica;
+    font-size: 12px;
+    padding: 2px 5px;
+    border: 1px solid #ddd;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 0.25em 0px 0.25em;
+    background: #bcecb4;
+    border: 1px solid #90c2e1;
+    -moz-border-radius: 2px;
+}

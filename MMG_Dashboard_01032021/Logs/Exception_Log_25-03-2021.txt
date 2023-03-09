@@ -1,0 +1,93 @@
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 25/03/2021 14:08:17
+Error Message: ORA-01722: invalid number
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 25/03/2021 14:09:25
+Error Message: ORA-01722: invalid number
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 25/03/2021 14:10:06
+Error Message: ORA-01722: invalid number
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 25/03/2021 14:12:38
+Error Message: ORA-01722: invalid number
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExecuteNonQuery(String sqlQuery) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 174
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 25/03/2021 15:30:57
+Error Message: ORA-01722: invalid number
+ORA-06512: at "MOBINT.PROC_ANNEXURE_2", line 297
+ORA-06512: at "MOBINT.PROC_ANNEXURE_2", line 184
+ORA-06512: at line 1
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExcuteAnnexure2Proceudre(String VendorId, String Division, String Type, String Month, String Year, String BillNo, String WorkOrder) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 337
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 25/03/2021 15:31:09
+Error Message: ORA-01722: invalid number
+ORA-06512: at "MOBINT.PROC_ANNEXURE_2", line 297
+ORA-06512: at "MOBINT.PROC_ANNEXURE_2", line 184
+ORA-06512: at line 1
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExcuteAnnexure2Proceudre(String VendorId, String Division, String Type, String Month, String Year, String BillNo, String WorkOrder) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 337
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 25/03/2021 15:32:01
+Error Message: ORA-01722: invalid number
+ORA-06512: at "MOBINT.PROC_ANNEXURE_2", line 297
+ORA-06512: at "MOBINT.PROC_ANNEXURE_2", line 184
+ORA-06512: at line 1
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExcuteAnnexure2Proceudre(String VendorId, String Division, String Type, String Month, String Year, String BillNo, String WorkOrder) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 337
+_____________________________________________________________________

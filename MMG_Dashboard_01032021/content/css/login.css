@@ -1,0 +1,426 @@
+﻿body {
+    background-image: url("../img/bg.jpg");
+    /*background-image: url("../img/abstract-bg.png");*/
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 12px;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-inverse {
+    /*border-top:4px solid #ED1B23;*/
+    min-height: 55px;
+    background-color: rgba(105, 155, 14, 1);
+}
+
+.navbar-header {
+    height: 40px;
+    padding-left: 5px;
+}
+
+    .navbar-header img {
+        width: 47px;
+        float: left;
+        margin-top: 4px;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+/* ------------------Footer Style--------------- */
+/* Add a gray background color and some padding to the footer */
+footer {
+    /*background-color: rgba(88, 121, 28, 1);*/
+    background-color: rgba(0,0,0,.7);
+    border-top: 1px solid rgba(0,0,0,.3);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    color: #fff;
+    height: 70px;
+    z-index: 9999999;
+    border-top: 1px solid #555;
+}
+
+
+    footer p {
+        margin: 4px 2px 2px;
+        font-size: 12px;
+        color: #fff;
+        padding-top: 20px;
+    }
+
+    footer a {
+        padding-top: 3px;
+        color: #fff;
+    }
+
+    footer img {
+        width: 50px;
+        float: left;
+        padding-top: 10px;
+    }
+
+.footer-brand {
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    /* line-height: 20px; */
+    float: left;
+}
+
+/* ------------------Navbar Style--------------- */
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.text-danger {
+    color: rgb(232, 68, 66);
+}
+
+label {
+    font-weight: 500;
+}
+
+.logo {
+    margin: auto;
+    padding-top: 80px;
+}
+
+    .logo h1 {
+        font-weight: bold;
+        color: rgb(20, 105, 97);
+        /* font-family: Algerian; */
+        margin-top: 0px;
+        font-size: 50px;
+    }
+
+    .logo img {
+        padding-top: 0px;
+        width: 80%;
+    }
+
+h1 {
+    font-family: 'JosefinSans-Regular', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff;
+    padding-left: 8px;
+}
+
+.app-name {
+    padding-top: 70px;
+    color: black;
+    -webkit-text-fill-color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+h3 {
+    /*font-family: 'Quicksand-bold', sans-serif;*/
+    margin-top: 0px;
+}
+
+.img-logo {
+    padding-top: 100px;
+}
+
+
+.card {
+    background-color: rgba(0,0,0,.3);
+    z-index: 111;
+    position: inherit;
+    /* box-shadow: 0 3px 9px rgba(0,0,0,.5); */
+    box-shadow: 0 3px 20px rgb(245, 245, 245);
+    border-radius: 6px;
+    /*border: 12px solid #e68200;*/
+    /*background-image: linear-gradient(rgb(240,137,0), rgb(195,0,0));*/
+    /*background-image: linear-gradient(to bottom left, rgb(95, 134, 179), rgb(187, 88, 154));*/
+    color: #fff;
+}
+
+.card-header {
+    padding: 10px 25px 0px;
+    border-radius: 6px 6px 0px 0px;
+    margin-bottom: 0;
+    /*background-color: rgba(0,0,0,.03);*/
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-body {
+    /*background-color: rgba(0,0,0,.2);*/
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+    .card-body h3 {
+        font-size: 30px;
+    }
+
+.card-footer {
+    color: #000;
+    padding: .75rem 1.25rem;
+    border-radius: 0px 0px 6px 6px;
+    background-color: rgba(249, 249, 249, 1);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.form-control {
+    padding: .15rem .75rem;
+}
+
+.btn {
+    padding: 4px 10px 1px;
+    font-size: 17px;
+}
+/*.fa-user, .fa-lock {
+    color: rgb(0, 166, 149);
+}*/
+/*.btn-default {
+    color: #fff;
+    background-color: #5c5c5c;
+    border-color: #333;
+}*/
+
+.btn-blue {
+    color: #fff;
+    background-color: rgba(39,55,154,.8);
+    border-color: rgba(39,55,154,.6);
+}
+
+    .btn-blue:hover {
+        color: #fff;
+        background-color: rgba(39,55,154,.9);
+        border-color: rgba(39,55,154,.7);
+    }
+
+.btn-teal {
+    color: #fff;
+    /*height: 25px;*/
+    background-color: rgb(0, 102, 92);
+    /*border-color: rgba(39,55,154,.6);*/
+}
+
+    .btn-teal:hover {
+        color: #fff;
+        background-color: rgb(6, 80, 73);
+        border-color: rgb(6, 80, 73);
+    }
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 40px;
+    /* height: 40px; */
+}
+
+.text-white {
+    color: #fff;
+}
+
+.site-info {
+    /*background-color: rgba(105, 155, 14, .6);*/
+    min-height: 128px;
+}
+
+.text-footer {
+    /*color: #fff;*/
+    padding: 20px 15px 20px;
+    text-align: justify;
+}
+
+a {
+    color: rgb(7, 104, 187);
+}
+
+.box {
+    padding: 15px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 5px;
+    /* -webkit-box-shadow: 0px 0px 10px 1px #000000; */
+    box-shadow: 0px 0px 12px 1px #8a8585;
+    /*box-shadow: 0px 0px 11px 1px rgba(255,255,255,.5);*/
+    height: 100px;
+    overflow: auto;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 5px;
+}
+
+/*-------------Sidenav CSS--------------*/
+.open-nav {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    padding-top: 60px;
+    z-index: 9999;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: rgba(105,155, 14,.3);*/
+    background-color: rgba(0,0, 0,.3);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 50px 20px 20px;
+    margin-top: 55px;
+}
+
+    .sidenav a {
+        padding: 0px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        /*color: #818181;*/
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+#main {
+    transition: margin-left .5s;
+    margin-left: 250px;
+}
+/*a {
+    color: #5bb1fb;
+}*/
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background-image: url('../img/bgMob.jpg');
+        background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .login-box {
+        margin: 0% 0% 10%;
+    }
+
+    .text-footer {
+        padding: 20px 15px 0px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+
+    .login-box {
+        margin: 10% 2%;
+    }
+
+    .logo {
+        padding-top: 25px;
+    }
+
+        .logo img {
+            padding-top: 20px;
+            width: 200px;
+        }
+}
+
+@media screen and (min-width: 720px) {
+    .login-box {
+        padding: 0% 10% 10%;
+    }
+
+    .site-info {
+        padding-bottom: 110px;
+    }
+
+    .logo img {
+        padding-top: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    footer {
+        height: 105px;
+    }
+
+    .card {
+        margin-bottom: 20%;
+    }
+
+    footer {
+        position: absolute;
+        left: auto;
+        bottom: auto;
+    }
+    footer p {      
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo img {
+        padding-top: 90px;
+        width: 60%;
+    }
+
+    .login-box {
+        padding: 0% 10% 3%;
+    }
+
+    .navbar-inverse .navbar-brand {
+        padding-left: 8px;
+        margin-left: 0px !important;
+    }
+
+    .site-info {
+        padding-bottom: 25px;
+    }
+}

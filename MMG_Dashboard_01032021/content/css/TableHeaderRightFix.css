@@ -1,0 +1,195 @@
+﻿.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, 
+.table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+    padding: 8px 5px !important;
+    color: #000;
+}  
+
+table { width: 100%; }
+	  th {
+
+          
+	     /*background: #283F6B;*/
+          /* For browsers that do not support gradients */
+         /*background: -webkit-linear-gradient(#283F6B, #8F969F);*/ /* For Safari 5.1 to 6.0 */
+		 /*background: -o-linear-gradient(#283F6B, #8F969F);*/ /* For Opera 11.1 to 12.0 */
+		 /*background: -moz-linear-gradient(#283F6B, #8F969F);*/ /* For Firefox 3.6 to 15 */
+		 /*background: linear-gradient(#283F6B, #8F969F);*/ /* Standard syntax */
+
+	        color:#ffffff;
+		font-weight:normal;
+        
+	  }	
+
+
+	 
+	  td, th {text-align: left; white-space: nowrap;}
+	  td.numeric, th.numeric { text-align: right; }
+	  h2, h3 {margin-top: 1em;}
+	  section {padding-top: 0px;}
+
+
+      @media only screen and (max-width: 800px) {
+	
+	.flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+	.flip-scroll * html .cf { zoom: 1; }
+	.flip-scroll *:first-child+html .cf { zoom: 1; }
+	
+	.flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+ 
+	.flip-scroll th,.flip-scroll td { margin: 0; vertical-align: top; }
+	.flip-scroll th { text-align: left; }
+	
+	.flip-scroll table { display: block; position: relative; width: 100%; }
+	.flip-scroll thead { display: block; float: left; }
+	.flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+	.flip-scroll thead tr { display: block; }
+	.flip-scroll th { display: block; text-align: right; }
+	.flip-scroll tbody tr { display: inline-block; vertical-align: top; }
+	.flip-scroll td { display: block; min-height: 1.25em; text-align: left; }
+ 
+ 
+	/* sort out borders */
+ 
+	.flip-scroll th { border-bottom: 0; border-left: 0; }
+	.flip-scroll td { border-left: 0; border-right: 0; border-bottom: 0;  }
+	.flip-scroll tbody tr { border-left: 1px solid #babcbf; }
+	.flip-scroll th:last-child,
+	.flip-scroll td:last-child { border-bottom: 1px solid #babcbf; }
+
+        /*.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+            border-bottom-width: 1px;
+        }*/
+
+    .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, 
+    .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            padding: 8px 3px;
+    }
+
+        .flip-scroll table tbody tr td {
+            border-collapse:collapse;
+            min-height: 35px;
+        }
+
+    .btn {
+        padding: .58rem .75rem;
+        font-size: 13px;
+    }
+
+}
+
+      .footable .pagination {
+  margin: 20px 0;
+}
+.footable .pagination > ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+.footable .pagination > ul > li {
+  display: inline;
+}
+.footable .pagination > ul > li > a,
+.footable .pagination > ul > li > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  border: 1px solid #cccccc;
+  border-left-width: 0;
+}
+.footable .pagination > ul > li:first-child > a,
+.footable .pagination > ul > li:first-child > span {
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  border-left-width: 1px;
+}
+.footable .pagination > ul > li:last-child > a,
+.footable .pagination > ul > li:last-child > span {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+}
+.footable .pagination > ul > li > a:hover,
+.footable .pagination > ul > li > a:focus,
+.footable .pagination > ul > .active > a,
+.footable .pagination > ul > .active > span {
+  background-color: #eeeeee;
+}
+.footable .pagination > ul > .active > a,
+.footable .pagination > ul > .active > span {
+  color: #444444;
+  cursor: default;
+}
+.footable .pagination > ul > .disabled > span,
+.footable .pagination > ul > .disabled > a,
+.footable .pagination > ul > .disabled > a:hover,
+.footable .pagination > ul > .disabled > a:focus {
+  color: #cccccc;
+  cursor: default;
+  background-color: #fff;
+}
+.footable .pagination.pagination-centered {
+  text-align: right;
+}
+.footable .pagination.pagination-right {
+  text-align: center;
+}
+
+
+section .form-control {
+    height: 22px !important;
+    padding:0px 12px;
+}
+
+
+
+.webgrid-table {
+    /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+    font-size: 13px;
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    border: solid 1px #263659;
+    background-color: white;
+    font-weight: normal;
+}
+
+    .webgrid-table td, th {
+        border: 1px solid LightGrey;
+        padding: 3px 7px 2px;
+    }
+
+.webgrid-header {
+    background-color: #2B4472;
+    color: #FFFFFF;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.webgrid-footer {
+}
+
+.webgrid-row-style {
+    padding: 3px 7px 2px;
+}
+
+.webgrid-alternating-row {
+    background-color: #EAF2D3;
+    padding: 3px 7px 2px;
+}

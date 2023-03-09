@@ -1,0 +1,30 @@
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 16/04/2021 13:26:10
+Error Message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'MOBINT.PROC_ANNEXURE_2' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExcuteAnnexure2Proceudre(String VendorId, String Division, String Type, String Month, String Year, String BillNo, String WorkOrder) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 376
+_____________________________________________________________________
+Log Entry : 
+Team Name: Gourav Gourav
+Error Time: 16/04/2021 13:27:07
+Error Message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'MOBINT.PROC_ANNEXURE1' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Error Details:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SimpleTest.SimpleUtil.ExcuteAnnexure1Proceudre(String VendorId, String Division, String Type, String Month, String Year, String BillNo, String WorkOrder) in D:\Project_19012021\MMG_Dashboard_01032021\MMG_Dashboard_01032021\Models\SimpleUtil.cs:line 336
+_____________________________________________________________________

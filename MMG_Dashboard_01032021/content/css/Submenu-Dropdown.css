@@ -1,0 +1,112 @@
+﻿
+.dropdown-submenu{ position: relative; }
+.dropdown-submenu>.dropdown-menu{
+  top:0;
+  /*left:100%;*/ right:100%;
+  margin-top:-6px;
+  margin-left:-1px;
+  -webkit-border-radius:0 6px 6px 6px;
+  -moz-border-radius:0 6px 6px 6px;
+  border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu>a:after{
+  display:block;
+  content:" ";
+  float:right;
+  width:0;
+  height:0;
+  border-color:transparent;
+  border-style:solid;
+  border-width:5px 0 5px 5px;
+  border-left-color:#cccccc;
+  margin-top:5px;margin-right:-10px;
+      /*display: block;
+    content: " ";
+    float: left;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 5px 5px 0px;
+    border-right-color: #cccccc;
+    margin-top: 3px;
+    margin-left: -10px;*/
+}
+.dropdown-submenu:hover>a:after{
+  border-left-color:#555;
+}
+.dropdown-submenu.pull-left{ float: none; }
+.dropdown-submenu.pull-left>.dropdown-menu{
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-menu > li {
+    border-top:1px solid #454e82;
+}
+
+.dropdown-menu > li:first-child {
+    border-top:none;
+}
+
+/*.navbar-nav > li > .dropdown-menu > li > a {
+    background-color: #D77D00;
+}*/
+
+.dropdown-menu > li {
+   background-color: #337AB7; 
+   color:#fff;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+@media (max-width: 768px) { 
+     .dropdown-menu > li > ul> li {
+        border-top: 1px solid #454e82; 
+        background-color: #4094de;
+    }
+     .dropdown-menu > li > ul> li >a {
+        padding-left: 45px !important;
+    }
+       .dropdown-menu > li > ul> li > ul> li {
+        border-top: 1px solid #454e82;    
+        background-color: #68abe6;
+    }
+    .dropdown-menu > li > ul > li > ul > li > a{
+         padding-left: 70px !important;
+    }
+        .dropdown-menu > li > ul> li > ul> li > ul> li {
+        border-top: 1px solid #454e82;
+        padding-left: 25px;
+        background-color: #3c87ca;
+    }
+}
+/*
+@media (min-width: 768px) { 
+}
+@media (min-width: 992px) { 
+}*/
+@media (min-width: 1200px) { 
+    .dropdown-submenu>a:after{
+        display: block;
+        content: " ";
+        float: left;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 5px 5px 0px;
+        border-right-color: #cccccc;
+        margin-top: 3px;
+        margin-left: -10px;
+        border-right-color: #286090;
+    }
+
+   
+}
+
